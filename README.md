@@ -33,32 +33,32 @@ FinSight is a web application for students to research stocks listed on the Sing
 
 | S/N | Tasks | Description | In-Charge | Date |
 | --- | --- | --- | --- | --- |
-| **1** | Finalise ideas | Design user interface layouts in Canva, sketch application features and core user flows. | Jermaine | 11 May - 16 May |
+| **1** | Finalise ideas | Design user interface layouts in Canva, sketch application features and core user flows. | Jermaine | 11 May - 15 May |
 | | | Draft Liftoff presentation slides, compile the video script, and complete recording. | John | | 
-| | Preliminary research | Learn how Flask routing works and set up coding environment. | John <br> Jermaine | 16 May - 24 May |
+| **2** | Preliminary research | Learn how Flask routing works and set up coding environment. | John <br> Jermaine | 16 May - 23 May |
 | | | Test pulling live stock data from the yfinance API | John | |
-| | Database Initialization | Create the local SQLite database tables to store user profiles. | Jermaine | 24 May - 28 May |
+| **3** | Database Initialization | Create the local SQLite database tables to store user profiles. | Jermaine | 24 May - 28 May |
 | | | Code the database setup script to test saving and loading user data. | John | |
-| | UI & Code Integration | Connect the live yfinance data to our styled HTML frontend pages. | John <br> Jermaine | 28 May - 31 May |
-| | |  **Evaluation Milestone 1:** <br> - Ideation <br> - Proof-of-concept: <br> &nbsp;&nbsp;&nbsp;&nbsp; - 1 hardcoded stock successfully pulling live market numbers. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Local database file verifying it can save and load a test user profile. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Clean web page showing our core design layouts and live price data | | **1 June** |
-| **2** | Dynamic Stock Search | Build a search bar that lets users look up any SGX or US stock ticker. | Jermaine | 1 June - 5 June |
+| **4** | UI & Code Integration | Connect the live yfinance data to our styled HTML frontend pages. | John <br> Jermaine | 29 May - 31 May |
+| | | **Evaluation Milestone 1:** <br> - Ideation <br> - Proof-of-concept: <br> &nbsp;&nbsp;&nbsp;&nbsp; - 1 hardcoded stock successfully pulling live market numbers. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Local database file verifying it can save and load a test user profile. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Clean web page showing our core design layouts and live price data | | **1 June** |
+| **5** | Dynamic Stock Search | Build a search bar that lets users look up any SGX or US stock ticker. | Jermaine | 2 June - 5 June |
 | | | Add checks so typing a wrong symbol or lowercase letters doesn't crash the app. | Jermaine | |
-| | Personal Watchlist | Create a database table so users can save their favorite stocks. | John | 6 June - 12 June |
+| **6** | Personal Watchlist | Create a database table so users can save their favorite stocks. | John | 6 June - 12 June |
 | | | Code buttons to easily add, view notes on, or delete stocks from the list. | John | |
-| | User Authentication | Create secure registration and login pages for user accounts. | Jermaine | 13 June - 21 June |
+| **7** | User Authentication | Create secure registration and login pages for user accounts. | Jermaine | 13 June - 21 June |
 | | | Use password hashing so user passwords aren't stored in plain text. | Jermaine | |
-| | Interactive Charts | Add a visual section for charts on the stock detail page. | Jermaine | 21 June - 28 June |
+| **8** | Interactive Charts | Add a visual section for charts on the stock detail page. | Jermaine | 22 June - 28 June |
 | | | Connect **Chart.js** to show 1-month, 3-month, and 1-year historical price graphs. | John | |
-| **Evaluation Milestone 2:** | **- First Working Prototype** <br> **- Core Features Operational:** <br> &nbsp;&nbsp;&nbsp;&nbsp; - Working stock search bar and user account login sessions. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Personal watchlists that save data permanently to the database. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Interactive price charts displaying stock performance over time. | | | **29 June** |
-| **3** | Financial Health Engine | Write the math formulas to pull key financial numbers from company reports. | Jermaine | 30 June - 5 July |
+| | | **Evaluation Milestone 2:** <br> - First Working Prototype <br> - Core Features Operational: <br> &nbsp;&nbsp;&nbsp;&nbsp; - Working stock search bar and user account login sessions. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Personal watchlists that save data permanently to the database. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Interactive price charts displaying stock performance over time. | | **29 June** |
+| **9** | Financial Health Engine | Write the math formulas to pull key financial numbers from company reports. | Jermaine | 30 June - 5 July |
 | | | Set up thresholds for Debt-to-Equity, Current, and Interest Coverage ratios. | John | |
-| | Stock Screener | Build an interactive table page for users to discover new stocks. | Jermaine | 5 July - 10 July |
+| **10** | Stock Screener | Build an interactive table page for users to discover new stocks. | Jermaine | 6 July - 10 July |
 | | | Allow users to filter the table by sector, exchange, P/E ratio, and market cap. | John | |
-| | CSV Export Extension | Write code to turn a user's watchlist into an Excel-friendly format. | Jermaine | 11 July - 17 July |
+| **11** | CSV Export Extension | Write code to turn a user's watchlist into an Excel-friendly format. | Jermaine | 11 July - 17 July |
 | | | Add a download button so users can save their watchlist as a `.csv` file. | Jermaine | |
-| | System Audits & Polish | Fix any loading lag and clean up database query speeds. | John <br> Jermaine | 18 July - 24 July |
+| **12** | System Audits & Polish | Fix any loading lag and clean up database query speeds. | John <br> Jermaine | 18 July - 26 July |
 | | | Run final testing to catch and fix any bugs before the official deployment. | John <br> Jermaine | |
-| **Evaluation Milestone 3:** | **- Complete Minimum Viable Product (MVP)** <br> **- Final App Release:** <br> &nbsp;&nbsp;&nbsp;&nbsp; - Working automated Financial Health Score (Low/Medium/High risk). <br> &nbsp;&nbsp;&nbsp;&nbsp; - Fully operational stock screener with advanced sorting filters. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Watchlist export-to-CSV utility tool and finalized user interface. | | | **27 July** |
+| | | **Evaluation Milestone 3:** <br> - Complete Minimum Viable Product (MVP) <br> - Final App Release: <br> &nbsp;&nbsp;&nbsp;&nbsp; - Working automated Financial Health Score (Low/Medium/High risk). <br> &nbsp;&nbsp;&nbsp;&nbsp; - Fully operational stock screener with advanced sorting filters. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Watchlist export-to-CSV utility tool and finalized user interface. | | **27 July** |
 
 
   
