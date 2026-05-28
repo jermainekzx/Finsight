@@ -40,7 +40,7 @@ FinSight is a web application for students to research stocks listed on the Sing
 | | Database Initialization | Create the local SQLite database tables to store user profiles. | Jermaine | 24 May - 28 May |
 | | | Code the database setup script to test saving and loading user data. | John | |
 | | UI & Code Integration | Connect the live yfinance data to our styled HTML frontend pages. | John <br> Jermaine | 28 May - 31 May |
-| **Evaluation Milestone 1:** | | **- Ideation** <br> **- Proof-of-concept:** <br> &nbsp;&nbsp;&nbsp;&nbsp; - 1 hardcoded stock successfully pulling live market numbers. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Local database file verifying it can save and load a test user profile. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Clean web page showing our core design layouts and live price data | | **1 June** |
+| |  **Evaluation Milestone 1:** <br> - Ideation <br> - Proof-of-concept: <br> &nbsp;&nbsp;&nbsp;&nbsp; - 1 hardcoded stock successfully pulling live market numbers. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Local database file verifying it can save and load a test user profile. <br> &nbsp;&nbsp;&nbsp;&nbsp; - Clean web page showing our core design layouts and live price data | | **1 June** |
 | **2** | Dynamic Stock Search | Build a search bar that lets users look up any SGX or US stock ticker. | Jermaine | 1 June - 5 June |
 | | | Add checks so typing a wrong symbol or lowercase letters doesn't crash the app. | Jermaine | |
 | | Personal Watchlist | Create a database table so users can save their favorite stocks. | John | 6 June - 12 June |
